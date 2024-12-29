@@ -3,7 +3,7 @@ marp: true
 theme: default
 paginate: true
 header: '**日本のお正月**'
-footer: '© 2024 Japanese Culture & Traditions'
+footer: '© 2024 Japanese Culture Presentation'
 style: |
   section {
     background: linear-gradient(to bottom right, #f5f5f5, #e0e0e0);
@@ -27,63 +27,59 @@ style: |
 ---
 
 # はじめに
-![bg right:40%](./assets/images/new_year_background.jpg)
+![bg right:40%](assets/images/new_year_background.jpg)
 
-日本の伝統的な新年のお祝いについて紹介します。
-
-- 伝統的な装飾
-- お正月の行事
-- お祝いの習慣
-- 特別な食事
+- 日本の伝統的な新年のお祝い
+- 古来からの習慣と現代の celebrations
+- 家族や地域社会との絆を深める機会
 
 ---
 
 # 獅子舞
-![bg left:40%](./assets/images/shishimai.png)
+![bg right:40%](assets/images/shishimai.png)
 
-- 新年の縁起物
-- 悪霊払いの意味
-- 地域の伝統芸能
-- 商売繫昌の願い
+- 新年の縁起物として親しまれる伝統芸能
+- 獅子頭に噛んでもらうと無病息災
+- 地域の祭りや初詣で披露される
 
 ---
 
 # 門松
-![bg right:40%](./assets/images/kadomatsu.png)
+![bg right:40%](assets/images/kadomatsu.png)
 
-- 大年神様を迎える目印
-- 松・竹・梅の意味
-- 玄関に飾る習慣
-- 地域による特徴
+- 新年の神様を迎えるための飾り
+- 松・竹・梅で構成
+- 玄関や門前に設置
+- 12月28日から1月7日まで飾る
 
 ---
 
 # 鏡餅
-![bg left:40%](./assets/images/kagami_mochi.png)
+![bg right:40% vertical](assets/images/kagami_mochi_1.png)
+![bg](assets/images/kagami_mochi_2.png)
+![bg](assets/images/kagami_mochi_3.png)
 
-- 大年神様への供え物
-- 二段重ねの意味
-- 橙（だいだい）の象徴
-- 家族の繁栄を願う
+- 年神様へのお供え物
+- 二段重ねの丸い餅
+- みかんや昆布を飾る
+- 1月11日に鏡開き
 
 ---
 
 # お年玉
-![bg right:40%](./assets/images/otoshidama.png)
+![bg right:40%](assets/images/otoshidama.png)
 
-- 子どもたちへの贈り物
-- ポチ袋の種類
-- 金額の相場
-- 現代の変化
+- 子どもたちへの新年の贈り物
+- ご祝儀袋に入れたお金
+- 親や親戚から贈られる
+- 子どもたちの楽しみの一つ
 
 ---
 
 # まとめ
-![bg opacity:.3](./assets/images/new_year_background.jpg)
+![bg right:40%](assets/images/new_year_background.jpg)
 
-- 伝統の継承
-- 文化の大切さ
-- 家族のつながり
-- 新年の希望
-
-ご清聴ありがとうございました。
+- 伝統文化の継承
+- 家族の絆を深める機会
+- 新年を祝う様々な習慣
+- 日本の文化的アイデンティティ

@@ -3,12 +3,12 @@ marp: true
 theme: default
 paginate: true
 header: '**Japanese New Year Traditions**'
-footer: '© 2024 Japanese Culture Presentation'
+footer: '© 2024 Japanese Cultural Heritage'
 style: |
   section {
     background: linear-gradient(to bottom right, #f5f5f5, #e0e0e0);
     color: #333;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
   }
   h1 {
     color: #2c3e50;
@@ -23,54 +23,68 @@ style: |
   img {
     max-height: 450px;
     margin: auto;
-    display: block;
   }
 ---
 
-# Japanese New Year
-## Introduction
-- One of Japan's most important holidays
-- Celebrated from January 1st to 3rd
-- Rich in traditions and customs
-![bg right:40%](./assets/images/new_year_background.jpg)
+# Introduction
+![bg right:40%](assets/images/new_year_background.jpg)
+
+- Japanese New Year (お正月) is the most important holiday in Japan
+- Traditional customs date back centuries
+- Celebration period: December 31st - January 3rd
+- Time for family gatherings and traditional activities
 
 ---
 
 # Shishimai (Lion Dance)
-- Traditional New Year's performance
-- Brings good luck and wards off evil spirits
-- Performed at shrines and festivals
-![bg right:40%](./assets/images/shishimai.png)
+![bg right:40%](assets/images/shishimai.png)
+
+- Traditional performance to ward off evil spirits
+- Brings good luck for the new year
+- Performed at shrines and temples
+- Features a lion-like mask and colorful costume
+- Often accompanied by traditional music
 
 ---
 
-# Kadomatsu
+# Kadomatsu (Gate Pine)
+![bg right:40%](assets/images/kadomatsu.png)
+
 - Traditional decoration placed at entrances
-- Made of bamboo and pine
+- Made of bamboo, pine, and plum branches
 - Welcomes ancestral spirits and deities
-![bg right:40%](./assets/images/kadomatsu.png)
+- Symbolizes longevity and prosperity
+- Displayed from December 28th until January 7th
 
 ---
 
-# Kagami Mochi
-- Traditional New Year's decoration
-- Two round mochi with a mandarin orange
-- Offering to the gods for good fortune
-![bg right:40%](./assets/images/kagami_mochi.png)
+# Kagami Mochi (Mirror Rice Cake)
+![bg right:40%](assets/images/kagami_mochi_1.png)
+
+- Two-tiered round rice cakes
+- Topped with a bitter orange (daidai)
+- Symbol of the year's reflection
+- Traditional offering to gods
+- Displayed until January 11th
 
 ---
 
-# Otoshidama
-- New Year's gift money for children
-- Given in special decorated envelopes
-- Important tradition for families
-![bg right:40%](./assets/images/otoshidama.png)
+# Otoshidama (New Year's Gift Money)
+![bg right:40%](assets/images/otoshidama.png)
+
+- Money gifts given to children
+- Presented in special envelopes
+- Amount varies by age
+- Important family tradition
+- Teaches financial responsibility
 
 ---
 
 # Conclusion
-## Preserving Japanese Traditions
-- Rich cultural heritage
-- Important family connections
-- Passing traditions to future generations
-![bg right:40%](./assets/images/new_year_background.jpg)
+![bg right:40%](assets/images/new_year_background.jpg)
+
+- Rich cultural traditions
+- Family-centered celebrations
+- Blend of religious and secular customs
+- Important part of Japanese identity
+- Continues to evolve while preserving tradition

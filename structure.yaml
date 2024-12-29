@@ -1,88 +1,111 @@
-以下に、エディターのYAML実装のための要件と出力形式をまとめます：
-
-エディター YAML 実装の要件:
-
-1. 構造と目的
-- プレゼンテーション作成のための多言語対応エディター
-- Marpスライド生成
-- 画像管理
-- 国際化(i18n)サポート
-- テスト機能
-
-2. 主要機能
-- 多言語スライド編集
-- リアルタイムプレビュー
-- 画像アップロードと管理
-- テンプレート選択
-- エクスポート機能
-
-3. 技術スタック推奨
-- フロントエンド: React/Next.js
-- バックエンド: Node.js
-- 状態管理: Zustand/Redux
-- スタイリング: Tailwind CSS
-- テスト: Jest
-
-出力形式のYAMLテンプレート:
-
-```yaml
 src:
-  editor:
-    components:
-      slide-editor.tsx:
-        content: |-
-          Marpスライド編集コンポーネント
-          - リアルタイム編集機能
-          - 多言語対応
-          - プレビュー表示
-        dependency: 
-          - src/components/image-uploader.tsx
-          - src/hooks/use-slide-editor.ts
-        agent: "claude-3-5-sonnet-20241022"
-        api: []
-      
-      image-uploader.tsx:
-        content: |-
-          画像アップロードコンポーネント
-          - ドラッグ&ドロップ
-          - プレビュー
-          - 画像最適化
+  structure.yaml:
+    content: |-
+      日本のお正月を紹介するプレゼンテーションスライド
+      - Marp形式で作成
+      - 日本の伝統的な新年の要素を紹介
+      - 多言語対応（日本語・英語）
+      - 画像とテキストを効果的に使用
+      - アニメーションやトランジションを考慮
+    dependency: []
+    agent: "claude-3-5-sonnet-20241022"
+    api: []
+  assets:
+    images:
+      kadomatsu.png:
+        content: "門松の伝統的な画像、新年の神様を迎える象徴的な装飾"
         dependency: []
-        agent: "claude-3-5-sonnet-20241022"
-        api: ["lumalabs-photon-1"]
-
-    hooks:
-      use-slide-editor.ts:
-        content: |-
-          スライドエディター用カスタムフック
-          - 状態管理
-          - 言語切り替え
-          - 編集履歴
+        agent: "lumalabs-photon-1"
+        api: []
+      kagami_mochi_1.png:
+        content: "鏡餅の画像1、みかん小:餅中:餅大、餅は白い丸餅"
         dependency: []
-        agent: "claude-3-5-sonnet-20241022"
+        agent: "lumalabs-photon-1"
         api: []
-
-    utils:
-      slide-generator.ts:
-        content: |-
-          Marpスライド生成ユーティリティ
-          - テンプレート管理
-          - マークダウン変換
-          - エクスポート機能
-        dependency: 
-          - src/i18n/templates
-        agent: "claude-3-5-sonnet-20241022"
+      kagami_mochi_2.png:
+        content: "鏡餅の画像2、みかん小:餅中:餅大、餅は白い丸餅"
+        dependency: []
+        agent: "lumalabs-photon-1"
         api: []
-```
-
-注意点:
-- 多言語対応
-- 拡張性
-- パフォーマンス
-- セキュリティ
-- ユーザーエクスペリエンス
-
-推奨エージェント:
-- 実装: claude-3-5-sonnet-20241022
-- UI/UX: claude-3-opus-20240229
-- 画像生成: lumalabs-photon-1
+      kagami_mochi_3.png:
+        content: "鏡餅の画像3、みかん小:餅中:餅大、餅は白い丸餅"
+        dependency: []
+        agent: "lumalabs-photon-1"
+        api: []
+      new_year_background.jpg:
+        content: "お正月の背景画像、日本の伝統的な新年の雰囲気を表現"
+        dependency: []
+        agent: "lumalabs-photon-1"
+        api: []
+      otoshidama.png:
+        content: "お年玉の画像、子供たちへの新年の贈り物を表現"
+        dependency: []
+        agent: "lumalabs-photon-1"
+        api: []
+      shishimai.png:
+        content: "獅子舞の画像、悪霊払いと幸運を招く伝統的な舞"
+        dependency: []
+        agent: "lumalabs-photon-1"
+        api: []
+  i18n:
+    en.json:
+      content: |-
+        {
+          "title": "Japanese New Year",
+          "slide1": "Introduction",
+          "slide2": "Shishimai",
+          "slide3": "Kadomatsu",
+          "slide4": "Kagami Mochi",
+          "slide5": "Otoshidama",
+          "slide6": "Conclusion"
+        }
+      dependency: []
+      agent: "claude-3-5-sonnet-20241022"
+      api: []
+    ja.json:
+      content: |-
+        {
+          "title": "日本のお正月",
+          "slide1": "はじめに",
+          "slide2": "獅子舞",
+          "slide3": "門松",
+          "slide4": "鏡餅",
+          "slide5": "お年玉",
+          "slide6": "まとめ"
+        }
+      dependency: []
+      agent: "claude-3-5-sonnet-20241022"
+      api: []
+  slides:
+    new_year_presentation.marp:
+      content: |-
+        Marpを使用した日本のお正月プレゼンテーション
+        - 日本の伝統的な新年の文化を紹介
+        - 多言語対応スライド
+        - 視覚的に魅力的なデザイン
+        - 各スライドで伝統的な要素を詳細に解説
+        - スライド1: はじめに (背景: assets/images/new_year_background.jpg)
+        - スライド2: 獅子舞 (画像: assets/images/shishimai.png)
+        - スライド3: 門松 (画像: assets/images/kadomatsu.png)
+        - スライド4: 鏡餅 (画像: assets/images/kagami_mochi_1.png, assets/images/kagami_mochi_2.png, assets/images/kagami_mochi_3.png)
+        - スライド5: お年玉 (画像: assets/images/otoshidama.png)
+        - スライド6: まとめ (背景: assets/images/new_year_background.jpg)
+      dependency:
+        - src/assets/images/new_year_background.jpg
+        - src/assets/images/shishimai.png
+        - src/assets/images/kadomatsu.png
+        - src/assets/images/kagami_mochi_1.png
+        - src/assets/images/kagami_mochi_2.png
+        - src/assets/images/kagami_mochi_3.png
+        - src/assets/images/otoshidama.png
+        - src/i18n/ja.json
+        - src/i18n/en.json
+      agent: "claude-3-5-sonnet-20241022"
+      api: []
+  tests:
+    new_year_presentation.test.ts:
+      content: "プレゼンテーションスライドの多言語対応とレイアウトテスト"
+      dependency:
+        - src/slides/new_year_presentation.marp
+      agent: "claude-3-5-sonnet-20241022"
+      api: []
