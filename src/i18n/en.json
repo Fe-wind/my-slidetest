@@ -1,0 +1,76 @@
+---
+marp: true
+theme: default
+paginate: true
+header: '**Japanese New Year Traditions**'
+footer: '© 2024 Japanese Culture Presentation'
+style: |
+  section {
+    background: linear-gradient(to bottom right, #f5f5f5, #e0e0e0);
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #c5a572;
+  }
+  h2 {
+    color: #34495e;
+  }
+  strong {
+    color: #c5a572;
+  }
+  img {
+    max-height: 450px;
+    margin: auto;
+    display: block;
+  }
+---
+
+# Japanese New Year
+## Introduction
+- One of Japan's most important holidays
+- Celebrated from January 1st to 3rd
+- Rich in traditions and customs
+![bg right:40%](./assets/images/new_year_background.jpg)
+
+---
+
+# Shishimai (Lion Dance)
+- Traditional New Year's performance
+- Brings good luck and wards off evil spirits
+- Performed at shrines and festivals
+![bg right:40%](./assets/images/shishimai.png)
+
+---
+
+# Kadomatsu
+- Traditional decoration placed at entrances
+- Made of bamboo and pine
+- Welcomes ancestral spirits and deities
+![bg right:40%](./assets/images/kadomatsu.png)
+
+---
+
+# Kagami Mochi
+- Traditional New Year's decoration
+- Two round mochi with a mandarin orange
+- Offering to the gods for good fortune
+![bg right:40%](./assets/images/kagami_mochi.png)
+
+---
+
+# Otoshidama
+- New Year's gift money for children
+- Given in special decorated envelopes
+- Important tradition for families
+![bg right:40%](./assets/images/otoshidama.png)
+
+---
+
+# Conclusion
+## Preserving Japanese Traditions
+- Rich cultural heritage
+- Important family connections
+- Passing traditions to future generations
+![bg right:40%](./assets/images/new_year_background.jpg)

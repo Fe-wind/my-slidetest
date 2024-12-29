@@ -1,0 +1,92 @@
+---
+marp: true
+theme: default
+paginate: true
+header: '**Japanese New Year / 日本のお正月**'
+footer: '© 2024 Traditional Japanese Culture'
+style: |
+  section {
+    background: linear-gradient(to bottom right, #f5f5f5, #e0e0e0);
+    color: #333;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #c5a572;
+  }
+  h2 {
+    color: #34495e;
+  }
+  strong {
+    color: #c5a572;
+  }
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  img {
+    max-height: 400px;
+    object-fit: contain;
+  }
+---
+
+# Introduction / はじめに
+![bg right:40%](assets/images/new_year_background.jpg)
+
+- Japanese New Year (お正月) is the most important holiday in Japan
+- Traditional customs and celebrations
+- Family gatherings and special foods
+- Unique decorations and rituals
+
+---
+
+# Shishimai / 獅子舞
+![bg right:40%](assets/images/shishimai.png)
+
+- Traditional lion dance performance
+- Brings good luck and wards off evil spirits
+- Often performed at shrines and temples
+- Important part of New Year celebrations
+
+---
+
+# Kadomatsu / 門松
+![bg right:40%](assets/images/kadomatsu.png)
+
+- Traditional decoration placed at entrances
+- Made of bamboo, pine, and plum branches
+- Welcomes ancestral spirits and deities
+- Symbolizes longevity and prosperity
+
+---
+
+# Kagami Mochi / 鏡餅
+![bg right:40%](assets/images/kagami_mochi.png)
+
+- Traditional New Year decoration
+- Two round rice cakes with a mandarin orange
+- Offering to the gods
+- Symbol of the coming year
+
+---
+
+# Otoshidama / お年玉
+![bg right:40%](assets/images/otoshidama.png)
+
+- New Year's gift money for children
+- Given in special envelopes (ポチ袋)
+- Important tradition for families
+- Teaches financial responsibility
+
+---
+
+# Conclusion / まとめ
+![bg opacity:0.2](assets/images/new_year_background.jpg)
+
+- Rich cultural traditions
+- Important family celebrations
+- Connecting past and present
+- Preserving Japanese heritage
+
+Thank you / ありがとうございました
